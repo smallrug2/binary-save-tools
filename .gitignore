@@ -1,0 +1,10 @@
+# Local dev / OS junk (the project itself stays upload-ready)
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
+# NOTE: __pycache__/ is intentionally TRACKED in this collection
+# as proof the scripts compile. To ignore it instead, uncomment:
+# __pycache__/
+# *.py[cod]
